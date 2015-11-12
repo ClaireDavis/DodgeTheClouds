@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbO-WB-6hf">
+                                <rect key="frame" x="20" y="544" width="101" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="uGq-Rg-18u"/>
+                                </constraints>
+                                <state key="normal" title="animate"/>
+                                <connections>
+                                    <action selector="animateTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bk0-Sc-iz8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You LOSE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhw-Oa-OB5">
+                                <rect key="frame" x="115" y="531" width="138" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" placeholder="YES" id="57C-fZ-qAW"/>
+                                    <constraint firstAttribute="height" constant="64" placeholder="YES" id="HoW-QF-Rkt"/>
+                                    <constraint firstAttribute="width" constant="138" id="b79-U5-ybt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="57C-fZ-qAW"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gyj-pc-1G7" customClass="airplaneView">
+                                <rect key="frame" x="20" y="348" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="TTl-Ea-99E" appends="YES" id="Hes-ii-wB2"/>
+                                    <outletCollection property="gestureRecognizers" destination="DAk-9m-Vzu" appends="YES" id="IvV-K4-NS0"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8To-Gs-oDa" customClass="CircleView">
+                                <rect key="frame" x="50" y="50" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7S-oc-7ys" customClass="CircleView">
+                                <rect key="frame" x="281" y="204" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mtf-85-H4e" customClass="secondCloudView">
+                                <rect key="frame" x="322" y="424" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z7S-oc-7ys" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="184" placeholder="YES" id="0ht-0I-2qX"/>
+                            <constraint firstItem="Mtf-85-H4e" firstAttribute="leading" secondItem="Gyj-pc-1G7" secondAttribute="trailing" constant="62" placeholder="YES" id="4Al-3n-woa"/>
+                            <constraint firstItem="EbO-WB-6hf" firstAttribute="leading" secondItem="Gyj-pc-1G7" secondAttribute="leading" id="5cF-8T-Qiw"/>
+                            <constraint firstItem="Mtf-85-H4e" firstAttribute="top" secondItem="z7S-oc-7ys" secondAttribute="bottom" constant="92" placeholder="YES" id="6Ip-6I-PtP"/>
+                            <constraint firstAttribute="bottom" secondItem="8To-Gs-oDa" secondAttribute="bottom" constant="500" placeholder="YES" id="6as-Yi-zki"/>
+                            <constraint firstAttribute="bottom" secondItem="EbO-WB-6hf" secondAttribute="bottom" constant="20" symbolic="YES" id="7Mw-Uh-b4N"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="z7S-oc-7ys" secondAttribute="bottom" constant="268" placeholder="YES" id="7Pw-AY-976"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Mtf-85-H4e" secondAttribute="bottom" constant="48" placeholder="YES" id="Dci-g1-cbU"/>
+                            <constraint firstAttribute="trailing" secondItem="8To-Gs-oDa" secondAttribute="trailing" constant="500" placeholder="YES" id="JdS-ZX-mEj"/>
+                            <constraint firstItem="8To-Gs-oDa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" placeholder="YES" id="MNH-9X-Yy6"/>
+                            <constraint firstItem="xhw-Oa-OB5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="95" id="MhW-Dv-VaX"/>
+                            <constraint firstItem="EbO-WB-6hf" firstAttribute="centerY" secondItem="xhw-Oa-OB5" secondAttribute="centerY" id="NAC-ba-Omr"/>
+                            <constraint firstItem="Gyj-pc-1G7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" placeholder="YES" id="Sc1-ok-ixb"/>
+                            <constraint firstItem="xhw-Oa-OB5" firstAttribute="top" secondItem="Gyj-pc-1G7" secondAttribute="bottom" constant="55" placeholder="YES" id="WSg-gS-xls"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xhw-Oa-OB5" secondAttribute="bottom" constant="8" symbolic="YES" id="dxy-8U-nGM"/>
+                            <constraint firstItem="Gyj-pc-1G7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="348" placeholder="YES" id="fbx-jd-PEf"/>
+                            <constraint firstItem="8To-Gs-oDa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" placeholder="YES" id="gFM-8h-8iE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z7S-oc-7ys" secondAttribute="trailing" constant="59" placeholder="YES" id="mJM-DP-FKI"/>
+                            <constraint firstItem="z7S-oc-7ys" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="281" placeholder="YES" id="nFE-kq-oim"/>
+                            <constraint firstAttribute="trailing" secondItem="Gyj-pc-1G7" secondAttribute="trailing" constant="340" placeholder="YES" id="qIv-Kw-KUw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mtf-85-H4e" secondAttribute="trailing" constant="18" placeholder="YES" id="sLB-PQ-2db"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cloudView" destination="8To-Gs-oDa" id="RsB-nl-ih1"/>
+                        <outlet property="cloudView2" destination="z7S-oc-7ys" id="XKY-Ze-jsD"/>
+                        <outlet property="cloudView3" destination="Mtf-85-H4e" id="ayJ-5M-5Re"/>
+                        <outlet property="holderView" destination="Gyj-pc-1G7" id="LQS-42-6OQ"/>
+                        <outlet property="youLoseLabel" destination="xhw-Oa-OB5" id="gNw-xy-ORb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="TTl-Ea-99E">
+                    <connections>
+                        <action selector="viewPanned:" destination="BYZ-38-t0r" id="Ky6-hv-KXV"/>
+                        <outlet property="delegate" destination="Gyj-pc-1G7" id="ea9-tP-eBS"/>
+                    </connections>
+                </panGestureRecognizer>
+                <rotationGestureRecognizer id="DAk-9m-Vzu">
+                    <connections>
+                        <action selector="rotation:" destination="BYZ-38-t0r" id="dYc-as-QnP"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="565" y="479"/>
+        </scene>
+    </scenes>
+</document>
