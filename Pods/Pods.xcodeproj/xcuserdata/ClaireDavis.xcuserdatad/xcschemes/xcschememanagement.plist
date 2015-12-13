@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>KTOneFingerRotationGestureRecognizer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BezierPaths.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BezierPathsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BezierPathsUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2F9C0B07EFF3C05A3B687FEF6D232440</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41447FCE357FA1499FEA82941C7233E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69A5627CC1DBA2B4DD1C2D10DB688F13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8E61834F964C8E5E9BB32EAD536A846</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1A186ACA1173BDA392FD01310DFB58E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

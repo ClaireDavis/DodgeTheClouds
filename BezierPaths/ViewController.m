@@ -10,8 +10,9 @@
 #import "CircleView.h"
 #import "secondCloudView.h"
 #import <QuartzCore/QuartzCore.h>
+#import "KTOneFingerRotationGestureRecognizer.h"
 
-@interface ViewController ()
+@interface ViewController () <UIGestureRecognizerDelegate>
 @property (nonatomic, strong) CAShapeLayer *layer;
 @property (nonnull,strong) CAGradientLayer *skyBackground;
 @property (weak, nonatomic)IBOutlet
@@ -34,6 +35,8 @@ UIView *holderView;
 @property (nonatomic, strong)NSLayoutConstraint *cloud3TopConstraint;
 @property (nonatomic, strong)NSLayoutConstraint *cloud3LeadingConstraint;
 @property (nonatomic, strong)NSLayoutConstraint *cloud3EndingLeadingConstraint;
+@property (nonatomic, strong)KTOneFingerRotationGestureRecognizer *oneFingerGesture;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *panGesture;
 
 @property (weak, nonatomic) IBOutlet UILabel *youLoseLabel;
 
@@ -60,7 +63,7 @@ UIView *holderView;
   
   //change magic numbers to screen width!!!!!
   
-  self.cloudLeadingConstraint = [self.cloudView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:200];
+  self.cloudLeadingConstraint = [self.cloudView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:400];
   self.cloudLeadingConstraint.active = YES;
   self.cloudTopConstraint = [self.cloudView.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:100];
   self.cloudTopConstraint.active = YES;
@@ -72,7 +75,7 @@ UIView *holderView;
   
   self.cloud2LeadingConstraint = [self.cloudView2.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:420];
   self.cloud2LeadingConstraint.active = YES;
-  self.cloud2TopConstraint = [self.cloudView2.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:255];
+  self.cloud2TopConstraint = [self.cloudView2.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:250];
   self.cloud2TopConstraint.active = YES;
   self.cloud2EndingLeadingConstraint = [self.cloudView2.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:-150];
   self.cloud2EndingLeadingConstraint.active = NO;
@@ -86,8 +89,26 @@ UIView *holderView;
   
   [self.view.layer insertSublayer:self.skyBackground atIndex:0];
   [self createView];
-//  [self cloudTwoCreate];
+//  [self addRotationGestureToView:self.holderView];
+
+  self.oneFingerGesture.delegate = self;
+  self.panGesture.delegate = self;
+  
 }
+
+
+//-(void)addRotationGestureToView:(UIView*)view
+//{
+//  self.oneFingerGesture = [[KTOneFingerRotationGestureRecognizer alloc]initWithTarget:self action:@selector(rotating:)];
+//  [view addGestureRecognizer:self.oneFingerGesture];
+////  [oneFingerRotation release];
+//}
+//- (void)rotating:(KTOneFingerRotationGestureRecognizer *)recognizer
+//{
+//  UIView *view = [recognizer view];
+//  [view setTransform:CGAffineTransformRotate([view transform], [recognizer rotation])];
+//}
+
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
@@ -95,8 +116,9 @@ UIView *holderView;
 }
 -(void)createView
 {
-  [self.holderView.widthAnchor constraintEqualToConstant:70].active = YES;
-  [self.holderView.heightAnchor constraintEqualToConstant:42].active = YES;
+//  self.holderView.backgroundColor = [UIColor greenColor];
+  [self.holderView.widthAnchor constraintEqualToConstant:90].active = YES;
+  [self.holderView.heightAnchor constraintEqualToConstant:54].active = YES;
 
   self.viewLeadingConstraint = [self.holderView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:50];
   self.viewLeadingConstraint.active = YES;
@@ -105,11 +127,15 @@ UIView *holderView;
   self.viewTopConstraint = [self.holderView.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:300];
   self.viewTopConstraint.active = YES;
   self.initialViewTopConstraint = self.viewTopConstraint.constant;
-  
 }
 
 - (IBAction)rotation:(UIRotationGestureRecognizer *)sender {
 }
+-(BOOL) gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
+{
+  return  YES;
+}
+
 
 - (IBAction)animateTapped:(id)sender {
   
@@ -158,6 +184,7 @@ UIView *holderView;
   return cloud;
 }
 - (IBAction)viewPanned:(UIPanGestureRecognizer *)sender {
+
   CGPoint translation = [sender translationInView:self.view];
   
   self.viewLeadingConstraint.constant = self.initialViewLeadingConstraint + translation.x;
@@ -180,8 +207,9 @@ UIView *holderView;
 {
   CGFloat planeX = self.holderView.frame.origin.x;
   CGFloat planeY = self.holderView.frame.origin.y;
-  CGPoint point = CGPointMake(planeX+70, planeY);
-  CGPoint point2 = CGPointMake(planeX+70, planeY);
+  CGPoint point = CGPointMake(planeX+90, planeY);
+  CGPoint point2 = CGPointMake(planeX+90, planeY);
+  CGPoint point3 = CGPointMake(planeX+90, planeY);
   
 //  CGPoint point = self.holderView.frame.origin;
   NSLog(@"CLOUD: (%f, %f)", self.cloudView.frame.origin.x, self.cloudView.frame.origin.y);
@@ -201,6 +229,11 @@ UIView *holderView;
   point2.x -= (cloud2Origin.x - self.view.frame.origin.x);
   point2.y -= (cloud2Origin.y - self.view.frame.origin.y);
   
+  CGRect cloud3Frame = [[self.cloudView3.layer presentationLayer]frame];
+  CGPoint cloud3Origin = cloud3Frame.origin;
+  
+  point3.x -= (cloud3Origin.x - self.view.frame.origin.x);
+  point3.y -= (cloud3Origin.y - self.view.frame.origin.y);
   
 //  point.x -= (self.cloudView.frame.origin.x - self.view.frame.origin.x);
 //  point.y -= (self.cloudView.frame.origin.y - self.view.frame.origin.y);
@@ -208,8 +241,11 @@ UIView *holderView;
   NSLog(@"containspoint: %d",[self.cloudView pointInside:point withEvent:nil]);
 
   
-  if ([self.cloudView pointInside:point withEvent:nil] || [self.cloudView2 pointInside:point2 withEvent:nil] ) {
+  if ([self.cloudView pointInside:point withEvent:nil] || [self.cloudView2 pointInside:point2 withEvent:nil] || [self.cloudView3 pointInside:point3 withEvent:nil] ) {
     self.youLoseLabel.hidden  = NO;
+    [self.cloudView.layer.presentationLayer removeAllAnimations];
+    [self.cloudView2.layer.presentationLayer removeAllAnimations];
+    [self.cloudView3.layer.presentationLayer removeAllAnimations];
   }
     NSLog(@"intersects: %d",CGRectIntersectsRect(self.cloudView.frame, self.holderView.frame));
     NSLog(@"frame: %f",[[self.cloudView.layer presentationLayer]frame].origin.x);

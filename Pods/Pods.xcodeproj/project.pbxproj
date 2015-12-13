@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4EE07A9248D164F7CDC98E516F6583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C32B3B7759AEFEB0522B32E18B0CA9 /* Foundation.framework */; };
+		2E472E3FA448863E9E151E1565611A02 /* Pods-BezierPathsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32E02B2AD27D771B81A4E1AB0A5652 /* Pods-BezierPathsTests-dummy.m */; };
+		2F0AA30EA2A6ADDB6C4C745CFCFBA734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C32B3B7759AEFEB0522B32E18B0CA9 /* Foundation.framework */; };
+		5DF28852F5372F8F26CA3AB1BAA2D9FD /* KTOneFingerRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 175B77570D6C37ECB27F4C8C6020C7D3 /* KTOneFingerRotationGestureRecognizer.h */; };
+		7A56025BFB04703EE32447BC3EDC77C8 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C5FB40A06552650FC8D03D275E94E /* Pods-dummy.m */; };
+		7B202132CAB7AE600D782CAB217A20A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C32B3B7759AEFEB0522B32E18B0CA9 /* Foundation.framework */; };
+		93E98831A9B441B97EF26236B0F4AD4B /* Pods-BezierPaths-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A838FA3AFA8F1D7805AF6B3B15F8E99 /* Pods-BezierPaths-dummy.m */; };
+		C0709B1A04FA73ACD77832D9F5AE4BB0 /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0F92ED3F8E2F98489C1EA5F8A358C /* KTOneFingerRotationGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DCCABEA34D4A7B0183DBCF2D66AE77A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C32B3B7759AEFEB0522B32E18B0CA9 /* Foundation.framework */; };
+		F1E064DCA7A7AE7C416D29EE43383772 /* Pods-BezierPathsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C311A8BDDDC79C21DF684D731715C58F /* Pods-BezierPathsUITests-dummy.m */; };
+		F22F48D66F162DFF10D902460E699D39 /* KTOneFingerRotationGestureRecognizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C4B8F868635EB5DFA3AF68CEC44A7 /* KTOneFingerRotationGestureRecognizer-dummy.m */; };
+		F84363D5229DE2D2C416B0E6864ACCE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C32B3B7759AEFEB0522B32E18B0CA9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0541852463955DE97841C3EBACE1F401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E61834F964C8E5E9BB32EAD536A846;
+			remoteInfo = KTOneFingerRotationGestureRecognizer;
+		};
+		385804B69D326B596FDFB075E9BA0195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E61834F964C8E5E9BB32EAD536A846;
+			remoteInfo = KTOneFingerRotationGestureRecognizer;
+		};
+		BC4B13F22BF401B77EFF441D9145E540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E61834F964C8E5E9BB32EAD536A846;
+			remoteInfo = KTOneFingerRotationGestureRecognizer;
+		};
+		EE6867B1F4596F8E16BD7FFCFBE8A551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E61834F964C8E5E9BB32EAD536A846;
+			remoteInfo = KTOneFingerRotationGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AE00D57022D0BD7E1BA3E7EED07B79 /* KTOneFingerRotationGestureRecognizer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KTOneFingerRotationGestureRecognizer-Private.xcconfig"; sourceTree = "<group>"; };
+		09BA138F0FA77618CA3542BBDB9301C1 /* Pods-BezierPaths-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BezierPaths-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A26ABD42F60377FDF426626062D3537 /* KTOneFingerRotationGestureRecognizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTOneFingerRotationGestureRecognizer.xcconfig; sourceTree = "<group>"; };
+		0A838FA3AFA8F1D7805AF6B3B15F8E99 /* Pods-BezierPaths-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BezierPaths-dummy.m"; sourceTree = "<group>"; };
+		0B51CF1F8C0049AEE35564A3ADC6B314 /* Pods-BezierPaths-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BezierPaths-acknowledgements.markdown"; sourceTree = "<group>"; };
+		175B77570D6C37ECB27F4C8C6020C7D3 /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		19A30C1BB77B17B1F7DD1B928ECC8E0A /* Pods-BezierPathsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierPathsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A32E02B2AD27D771B81A4E1AB0A5652 /* Pods-BezierPathsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BezierPathsTests-dummy.m"; sourceTree = "<group>"; };
+		2C9C5FB40A06552650FC8D03D275E94E /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2DC88738FB4D2025B443942119157044 /* Pods-BezierPathsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierPathsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		366BAB3FE59A13547A828AD9202F5BF2 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		4DF0F92ED3F8E2F98489C1EA5F8A358C /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		4F4C4136E7AFE380FF7E6D4C199F2EDF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		675C2440CD0FE9A35628DB63C82CBC64 /* Pods-BezierPathsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BezierPathsTests-resources.sh"; sourceTree = "<group>"; };
+		68556BDCAD8B3FBAD70EF500D7AAC3B1 /* libPods-BezierPathsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BezierPathsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C32B3B7759AEFEB0522B32E18B0CA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79EFD1D59A2265FD4241F2F50D0893FB /* Pods-BezierPaths-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BezierPaths-resources.sh"; sourceTree = "<group>"; };
+		7A40384845C279E1DC6091DCFE8AEEAB /* Pods-BezierPaths.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierPaths.debug.xcconfig"; sourceTree = "<group>"; };
+		8124849160137BC431C751514512FFCF /* libKTOneFingerRotationGestureRecognizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKTOneFingerRotationGestureRecognizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E79D7B3D7EA4622E5D206B8B369EC1 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		98DF36CC6CB254C672D2A155649D8AD0 /* Pods-BezierPathsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BezierPathsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADD9962B072E2CA798A1282477398C73 /* Pods-BezierPathsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierPathsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE0A3F314281D8E5CB8F3F98E4C04CB0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		AF4462C0FCFEB8D5DD5002D9969CAA63 /* Pods-BezierPaths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierPaths.release.xcconfig"; sourceTree = "<group>"; };
+		B0876EC9D0B3B29A21631A1ECEA22C16 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		B58C4B8F868635EB5DFA3AF68CEC44A7 /* KTOneFingerRotationGestureRecognizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTOneFingerRotationGestureRecognizer-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDFC90A09497BCB1676A8D9ED9A435F2 /* Pods-BezierPathsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BezierPathsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C311A8BDDDC79C21DF684D731715C58F /* Pods-BezierPathsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BezierPathsUITests-dummy.m"; sourceTree = "<group>"; };
+		CABDBEA0E4905E4D302D8F9B77AD277B /* Pods-BezierPathsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierPathsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D113B6E6009FB2860DAAE6785748F960 /* libPods-BezierPaths.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BezierPaths.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D184F95CFF40D4996A3096A10FEFF983 /* KTOneFingerRotationGestureRecognizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTOneFingerRotationGestureRecognizer-prefix.pch"; sourceTree = "<group>"; };
+		D2562D10ABDCA52BB686CEE0C0FDE6E9 /* libPods-BezierPathsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BezierPathsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6853E68A551E7DAE8E1DE4F7853A5F0 /* Pods-BezierPathsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BezierPathsUITests-resources.sh"; sourceTree = "<group>"; };
+		EB57B17A7E316F5FA8883429AD5AAE85 /* Pods-BezierPathsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BezierPathsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F060CC70C57405C2214A2C6890837055 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F33BE750B16F1EA9EBCA3FF4FA1094D9 /* Pods-BezierPathsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BezierPathsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24FD1FFB5D6EA4A33A20DC2E092E17F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4EE07A9248D164F7CDC98E516F6583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BBE8A9A2DC6A1CCC71CE9732468276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCABEA34D4A7B0183DBCF2D66AE77A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822B590A5D65DA8A57C3A12EFDDFAEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84363D5229DE2D2C416B0E6864ACCE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7912B189B3A6CAB1F61020255BF7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B202132CAB7AE600D782CAB217A20A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E588FB044151309EF7FE9D407F572795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0AA30EA2A6ADDB6C4C745CFCFBA734 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0673D0243BFA0474D6C0FC28330E59 /* KTOneFingerRotationGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				175B77570D6C37ECB27F4C8C6020C7D3 /* KTOneFingerRotationGestureRecognizer.h */,
+				4DF0F92ED3F8E2F98489C1EA5F8A358C /* KTOneFingerRotationGestureRecognizer.m */,
+				C75CF6F38F40C8471B464982D719C90C /* Support Files */,
+			);
+			path = KTOneFingerRotationGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		117F95380C10A33565CF3CBC84140D25 /* Pods-BezierPathsTests */ = {
+			isa = PBXGroup;
+			children = (
+				98DF36CC6CB254C672D2A155649D8AD0 /* Pods-BezierPathsTests-acknowledgements.markdown */,
+				F33BE750B16F1EA9EBCA3FF4FA1094D9 /* Pods-BezierPathsTests-acknowledgements.plist */,
+				1A32E02B2AD27D771B81A4E1AB0A5652 /* Pods-BezierPathsTests-dummy.m */,
+				675C2440CD0FE9A35628DB63C82CBC64 /* Pods-BezierPathsTests-resources.sh */,
+				2DC88738FB4D2025B443942119157044 /* Pods-BezierPathsTests.debug.xcconfig */,
+				CABDBEA0E4905E4D302D8F9B77AD277B /* Pods-BezierPathsTests.release.xcconfig */,
+			);
+			name = "Pods-BezierPathsTests";
+			path = "Target Support Files/Pods-BezierPathsTests";
+			sourceTree = "<group>";
+		};
+		33A88F101A6C975A3A3FC97DA6C106B9 /* Pods-BezierPathsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFC90A09497BCB1676A8D9ED9A435F2 /* Pods-BezierPathsUITests-acknowledgements.markdown */,
+				EB57B17A7E316F5FA8883429AD5AAE85 /* Pods-BezierPathsUITests-acknowledgements.plist */,
+				C311A8BDDDC79C21DF684D731715C58F /* Pods-BezierPathsUITests-dummy.m */,
+				D6853E68A551E7DAE8E1DE4F7853A5F0 /* Pods-BezierPathsUITests-resources.sh */,
+				19A30C1BB77B17B1F7DD1B928ECC8E0A /* Pods-BezierPathsUITests.debug.xcconfig */,
+				ADD9962B072E2CA798A1282477398C73 /* Pods-BezierPathsUITests.release.xcconfig */,
+			);
+			name = "Pods-BezierPathsUITests";
+			path = "Target Support Files/Pods-BezierPathsUITests";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				71C32B3B7759AEFEB0522B32E18B0CA9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DE868D06DDD6DA3824F82E4620937C50 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				C4616C47B5A63C93D9499EE95E036732 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F15F827F24DD9F1883CA28B35F47096 /* Pods-BezierPaths */ = {
+			isa = PBXGroup;
+			children = (
+				0B51CF1F8C0049AEE35564A3ADC6B314 /* Pods-BezierPaths-acknowledgements.markdown */,
+				09BA138F0FA77618CA3542BBDB9301C1 /* Pods-BezierPaths-acknowledgements.plist */,
+				0A838FA3AFA8F1D7805AF6B3B15F8E99 /* Pods-BezierPaths-dummy.m */,
+				79EFD1D59A2265FD4241F2F50D0893FB /* Pods-BezierPaths-resources.sh */,
+				7A40384845C279E1DC6091DCFE8AEEAB /* Pods-BezierPaths.debug.xcconfig */,
+				AF4462C0FCFEB8D5DD5002D9969CAA63 /* Pods-BezierPaths.release.xcconfig */,
+			);
+			name = "Pods-BezierPaths";
+			path = "Target Support Files/Pods-BezierPaths";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4616C47B5A63C93D9499EE95E036732 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDCF8A329A0A78C3D2F02C3C93074EB /* Pods */,
+				9F15F827F24DD9F1883CA28B35F47096 /* Pods-BezierPaths */,
+				117F95380C10A33565CF3CBC84140D25 /* Pods-BezierPathsTests */,
+				33A88F101A6C975A3A3FC97DA6C106B9 /* Pods-BezierPathsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C75CF6F38F40C8471B464982D719C90C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A26ABD42F60377FDF426626062D3537 /* KTOneFingerRotationGestureRecognizer.xcconfig */,
+				07AE00D57022D0BD7E1BA3E7EED07B79 /* KTOneFingerRotationGestureRecognizer-Private.xcconfig */,
+				B58C4B8F868635EB5DFA3AF68CEC44A7 /* KTOneFingerRotationGestureRecognizer-dummy.m */,
+				D184F95CFF40D4996A3096A10FEFF983 /* KTOneFingerRotationGestureRecognizer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KTOneFingerRotationGestureRecognizer";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8124849160137BC431C751514512FFCF /* libKTOneFingerRotationGestureRecognizer.a */,
+				4F4C4136E7AFE380FF7E6D4C199F2EDF /* libPods.a */,
+				D113B6E6009FB2860DAAE6785748F960 /* libPods-BezierPaths.a */,
+				68556BDCAD8B3FBAD70EF500D7AAC3B1 /* libPods-BezierPathsTests.a */,
+				D2562D10ABDCA52BB686CEE0C0FDE6E9 /* libPods-BezierPathsUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE868D06DDD6DA3824F82E4620937C50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E0673D0243BFA0474D6C0FC28330E59 /* KTOneFingerRotationGestureRecognizer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEDCF8A329A0A78C3D2F02C3C93074EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F060CC70C57405C2214A2C6890837055 /* Pods-acknowledgements.markdown */,
+				89E79D7B3D7EA4622E5D206B8B369EC1 /* Pods-acknowledgements.plist */,
+				2C9C5FB40A06552650FC8D03D275E94E /* Pods-dummy.m */,
+				366BAB3FE59A13547A828AD9202F5BF2 /* Pods-resources.sh */,
+				B0876EC9D0B3B29A21631A1ECEA22C16 /* Pods.debug.xcconfig */,
+				AE0A3F314281D8E5CB8F3F98E4C04CB0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B94F67C14DDC19046729B7E7D10D700 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF28852F5372F8F26CA3AB1BAA2D9FD /* KTOneFingerRotationGestureRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F9C0B07EFF3C05A3B687FEF6D232440 /* Pods-BezierPathsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D6245784284017F9A2B059DAC6B7E9 /* Build configuration list for PBXNativeTarget "Pods-BezierPathsUITests" */;
+			buildPhases = (
+				98263AA824373C4EFFE6B4B6029189EB /* Sources */,
+				822B590A5D65DA8A57C3A12EFDDFAEC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FD7FE8EF5CCD1BFB2EB60BC14DDD5F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-BezierPathsUITests";
+			productName = "Pods-BezierPathsUITests";
+			productReference = D2562D10ABDCA52BB686CEE0C0FDE6E9 /* libPods-BezierPathsUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		41447FCE357FA1499FEA82941C7233E3 /* Pods-BezierPaths */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F31C5F5E3651A10DA38FCFDD7C2391 /* Build configuration list for PBXNativeTarget "Pods-BezierPaths" */;
+			buildPhases = (
+				37F68A0255C52C91CEA4A31F9C596CBC /* Sources */,
+				33BBE8A9A2DC6A1CCC71CE9732468276 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A6EA892F1F85859EEE5085432104F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-BezierPaths";
+			productName = "Pods-BezierPaths";
+			productReference = D113B6E6009FB2860DAAE6785748F960 /* libPods-BezierPaths.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69A5627CC1DBA2B4DD1C2D10DB688F13 /* Pods-BezierPathsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02972D135C5D5A05C44B715081FCA40 /* Build configuration list for PBXNativeTarget "Pods-BezierPathsTests" */;
+			buildPhases = (
+				C0AA58012C6A283B90DFC2C35D0023DA /* Sources */,
+				24FD1FFB5D6EA4A33A20DC2E092E17F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B29EA32705B1173ED70BD714999EA02 /* PBXTargetDependency */,
+			);
+			name = "Pods-BezierPathsTests";
+			productName = "Pods-BezierPathsTests";
+			productReference = 68556BDCAD8B3FBAD70EF500D7AAC3B1 /* libPods-BezierPathsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8E61834F964C8E5E9BB32EAD536A846 /* KTOneFingerRotationGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED24C297592C5949F90809B5C4598FF9 /* Build configuration list for PBXNativeTarget "KTOneFingerRotationGestureRecognizer" */;
+			buildPhases = (
+				359B42CD0DD90F1349FF3701A035747F /* Sources */,
+				8C7912B189B3A6CAB1F61020255BF7C8 /* Frameworks */,
+				5B94F67C14DDC19046729B7E7D10D700 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTOneFingerRotationGestureRecognizer;
+			productName = KTOneFingerRotationGestureRecognizer;
+			productReference = 8124849160137BC431C751514512FFCF /* libKTOneFingerRotationGestureRecognizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1A186ACA1173BDA392FD01310DFB58E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C54F91EF107329DBB391E4CA9EE66D /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				25FF8CE5C304550913399EAB1DCF4735 /* Sources */,
+				E588FB044151309EF7FE9D407F572795 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76731ABFE42802FC5F89BFA28CC6B01 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 4F4C4136E7AFE380FF7E6D4C199F2EDF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E61834F964C8E5E9BB32EAD536A846 /* KTOneFingerRotationGestureRecognizer */,
+				F1A186ACA1173BDA392FD01310DFB58E /* Pods */,
+				41447FCE357FA1499FEA82941C7233E3 /* Pods-BezierPaths */,
+				69A5627CC1DBA2B4DD1C2D10DB688F13 /* Pods-BezierPathsTests */,
+				2F9C0B07EFF3C05A3B687FEF6D232440 /* Pods-BezierPathsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FF8CE5C304550913399EAB1DCF4735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A56025BFB04703EE32447BC3EDC77C8 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359B42CD0DD90F1349FF3701A035747F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22F48D66F162DFF10D902460E699D39 /* KTOneFingerRotationGestureRecognizer-dummy.m in Sources */,
+				C0709B1A04FA73ACD77832D9F5AE4BB0 /* KTOneFingerRotationGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F68A0255C52C91CEA4A31F9C596CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E98831A9B441B97EF26236B0F4AD4B /* Pods-BezierPaths-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98263AA824373C4EFFE6B4B6029189EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E064DCA7A7AE7C416D29EE43383772 /* Pods-BezierPathsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AA58012C6A283B90DFC2C35D0023DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E472E3FA448863E9E151E1565611A02 /* Pods-BezierPathsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FD7FE8EF5CCD1BFB2EB60BC14DDD5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTOneFingerRotationGestureRecognizer;
+			target = B8E61834F964C8E5E9BB32EAD536A846 /* KTOneFingerRotationGestureRecognizer */;
+			targetProxy = 385804B69D326B596FDFB075E9BA0195 /* PBXContainerItemProxy */;
+		};
+		2B29EA32705B1173ED70BD714999EA02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTOneFingerRotationGestureRecognizer;
+			target = B8E61834F964C8E5E9BB32EAD536A846 /* KTOneFingerRotationGestureRecognizer */;
+			targetProxy = 0541852463955DE97841C3EBACE1F401 /* PBXContainerItemProxy */;
+		};
+		C4A6EA892F1F85859EEE5085432104F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTOneFingerRotationGestureRecognizer;
+			target = B8E61834F964C8E5E9BB32EAD536A846 /* KTOneFingerRotationGestureRecognizer */;
+			targetProxy = BC4B13F22BF401B77EFF441D9145E540 /* PBXContainerItemProxy */;
+		};
+		E76731ABFE42802FC5F89BFA28CC6B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTOneFingerRotationGestureRecognizer;
+			target = B8E61834F964C8E5E9BB32EAD536A846 /* KTOneFingerRotationGestureRecognizer */;
+			targetProxy = EE6867B1F4596F8E16BD7FFCFBE8A551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15E24B6112BDAE9279F117083BE77726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC88738FB4D2025B443942119157044 /* Pods-BezierPathsTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		29A89F2146DA5C1A448778BC9EBA1BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A40384845C279E1DC6091DCFE8AEEAB /* Pods-BezierPaths.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4939F1B3AD8FDB26452C39ED6EE0FEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4462C0FCFEB8D5DD5002D9969CAA63 /* Pods-BezierPaths.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64DF19C18EB7F1A9B95A27348689EED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0A3F314281D8E5CB8F3F98E4C04CB0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		874B780708FAD732B8C5431E32A93C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AE00D57022D0BD7E1BA3E7EED07B79 /* KTOneFingerRotationGestureRecognizer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KTOneFingerRotationGestureRecognizer/KTOneFingerRotationGestureRecognizer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B8A3B8ADD08EB9DE94015F8D4F929A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A30C1BB77B17B1F7DD1B928ECC8E0A /* Pods-BezierPathsUITests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E5414FB83D1AAAD183BE64C67262F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD9962B072E2CA798A1282477398C73 /* Pods-BezierPathsUITests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		920FDFF40301F283F5BF6B3B6691C7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABDBEA0E4905E4D302D8F9B77AD277B /* Pods-BezierPathsTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA90EF2AA3B16320E9026B2C4F59CE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0876EC9D0B3B29A21631A1ECEA22C16 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F75A9F38459E0C3B3F8AEB42D7DBCE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AE00D57022D0BD7E1BA3E7EED07B79 /* KTOneFingerRotationGestureRecognizer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KTOneFingerRotationGestureRecognizer/KTOneFingerRotationGestureRecognizer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C54F91EF107329DBB391E4CA9EE66D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA90EF2AA3B16320E9026B2C4F59CE2E /* Debug */,
+				64DF19C18EB7F1A9B95A27348689EED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F31C5F5E3651A10DA38FCFDD7C2391 /* Build configuration list for PBXNativeTarget "Pods-BezierPaths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A89F2146DA5C1A448778BC9EBA1BCB /* Debug */,
+				4939F1B3AD8FDB26452C39ED6EE0FEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02972D135C5D5A05C44B715081FCA40 /* Build configuration list for PBXNativeTarget "Pods-BezierPathsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E24B6112BDAE9279F117083BE77726 /* Debug */,
+				920FDFF40301F283F5BF6B3B6691C7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED24C297592C5949F90809B5C4598FF9 /* Build configuration list for PBXNativeTarget "KTOneFingerRotationGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874B780708FAD732B8C5431E32A93C55 /* Debug */,
+				F75A9F38459E0C3B3F8AEB42D7DBCE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D6245784284017F9A2B059DAC6B7E9 /* Build configuration list for PBXNativeTarget "Pods-BezierPathsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8A3B8ADD08EB9DE94015F8D4F929A5 /* Debug */,
+				8E5414FB83D1AAAD183BE64C67262F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

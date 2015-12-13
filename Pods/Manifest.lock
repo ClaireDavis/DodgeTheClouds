@@ -1,0 +1,10 @@
+PODS:
+  - KTOneFingerRotationGestureRecognizer (1.0.0)
+
+DEPENDENCIES:
+  - KTOneFingerRotationGestureRecognizer (~> 1.0)
+
+SPEC CHECKSUMS:
+  KTOneFingerRotationGestureRecognizer: 2cde33c14c92957b3e341bcd3a72670e6aa10565
+
+COCOAPODS: 0.38.2

@@ -18,6 +18,7 @@
 		E2EE2EA11BED4C6D00AF6DF0 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE2EA01BED4C6D00AF6DF0 /* CircleView.m */; };
 		E2EE2EA41BF1285D00AF6DF0 /* airplaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE2EA31BF1285D00AF6DF0 /* airplaneView.m */; };
 		E2EE2EA71BF1350400AF6DF0 /* secondCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE2EA61BF1350400AF6DF0 /* secondCloudView.m */; };
+		EEF5C35197B32E2A39E04C2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4BC0C1D114D8CFD8A386 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		925EA24E488D645F4EF1617D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A10F4BC0C1D114D8CFD8A386 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8703085AAFC3D294B8BAB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E2D5D8B71BE7A76E00089DF7 /* BezierPaths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPaths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D5D8BB1BE7A76E00089DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2D5D8BD1BE7A76E00089DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF5C35197B32E2A39E04C2A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4073C43B8951889AA7CDD644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE8703085AAFC3D294B8BAB3 /* Pods.debug.xcconfig */,
+				925EA24E488D645F4EF1617D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6910A174CC8DC6AC7CF86A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10F4BC0C1D114D8CFD8A386 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2D5D8AE1BE7A76D00089DF7 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +116,8 @@
 				E2D5D8D31BE7A76F00089DF7 /* BezierPathsTests */,
 				E2D5D8DE1BE7A76F00089DF7 /* BezierPathsUITests */,
 				E2D5D8B81BE7A76E00089DF7 /* Products */,
+				4073C43B8951889AA7CDD644 /* Pods */,
+				6910A174CC8DC6AC7CF86A1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2D5D8E41BE7A76F00089DF7 /* Build configuration list for PBXNativeTarget "BezierPaths" */;
 			buildPhases = (
+				594876DDE73939E75EB9261B /* Check Pods Manifest.lock */,
 				E2D5D8B31BE7A76E00089DF7 /* Sources */,
 				E2D5D8B41BE7A76E00089DF7 /* Frameworks */,
 				E2D5D8B51BE7A76E00089DF7 /* Resources */,
+				47EB02CC4244F5CE9E349BC8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +248,7 @@
 				TargetAttributes = {
 					E2D5D8B61BE7A76E00089DF7 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GQ6DHHL68B;
 					};
 					E2D5D8CF1BE7A76F00089DF7 = {
 						CreatedOnToolsVersion = 7.1;
@@ -279,6 +306,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47EB02CC4244F5CE9E349BC8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594876DDE73939E75EB9261B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2D5D8B31BE7A76E00089DF7 /* Sources */ = {
@@ -427,23 +487,31 @@
 		};
 		E2D5D8E51BE7A76F00089DF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8703085AAFC3D294B8BAB3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BezierPaths/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = claire.davis.BezierPaths;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		E2D5D8E61BE7A76F00089DF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925EA24E488D645F4EF1617D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BezierPaths/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = claire.davis.BezierPaths;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

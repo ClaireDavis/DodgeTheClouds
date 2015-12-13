@@ -28,23 +28,7 @@
                                     <action selector="animateTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bk0-Sc-iz8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You LOSE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhw-Oa-OB5">
-                                <rect key="frame" x="115" y="531" width="138" height="61"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="109" placeholder="YES" id="57C-fZ-qAW"/>
-                                    <constraint firstAttribute="height" constant="64" placeholder="YES" id="HoW-QF-Rkt"/>
-                                    <constraint firstAttribute="width" constant="138" id="b79-U5-ybt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="57C-fZ-qAW"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gyj-pc-1G7" customClass="airplaneView">
+                            <view multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gyj-pc-1G7" customClass="airplaneView">
                                 <rect key="frame" x="20" y="348" width="240" height="128"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
@@ -65,6 +49,12 @@
                                 <rect key="frame" x="322" y="424" width="240" height="128"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You LOSE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhw-Oa-OB5">
+                                <rect key="frame" x="120" y="204" width="242" height="162"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -77,12 +67,10 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="z7S-oc-7ys" secondAttribute="bottom" constant="268" placeholder="YES" id="7Pw-AY-976"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Mtf-85-H4e" secondAttribute="bottom" constant="48" placeholder="YES" id="Dci-g1-cbU"/>
                             <constraint firstAttribute="trailing" secondItem="8To-Gs-oDa" secondAttribute="trailing" constant="500" placeholder="YES" id="JdS-ZX-mEj"/>
+                            <constraint firstItem="xhw-Oa-OB5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LlB-DK-rxY"/>
                             <constraint firstItem="8To-Gs-oDa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" placeholder="YES" id="MNH-9X-Yy6"/>
-                            <constraint firstItem="xhw-Oa-OB5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="95" id="MhW-Dv-VaX"/>
-                            <constraint firstItem="EbO-WB-6hf" firstAttribute="centerY" secondItem="xhw-Oa-OB5" secondAttribute="centerY" id="NAC-ba-Omr"/>
                             <constraint firstItem="Gyj-pc-1G7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" placeholder="YES" id="Sc1-ok-ixb"/>
-                            <constraint firstItem="xhw-Oa-OB5" firstAttribute="top" secondItem="Gyj-pc-1G7" secondAttribute="bottom" constant="55" placeholder="YES" id="WSg-gS-xls"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xhw-Oa-OB5" secondAttribute="bottom" constant="8" symbolic="YES" id="dxy-8U-nGM"/>
+                            <constraint firstItem="xhw-Oa-OB5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vdh-UQ-A5h"/>
                             <constraint firstItem="Gyj-pc-1G7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="348" placeholder="YES" id="fbx-jd-PEf"/>
                             <constraint firstItem="8To-Gs-oDa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" placeholder="YES" id="gFM-8h-8iE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="z7S-oc-7ys" secondAttribute="trailing" constant="59" placeholder="YES" id="mJM-DP-FKI"/>
@@ -96,6 +84,7 @@
                         <outlet property="cloudView2" destination="z7S-oc-7ys" id="XKY-Ze-jsD"/>
                         <outlet property="cloudView3" destination="Mtf-85-H4e" id="ayJ-5M-5Re"/>
                         <outlet property="holderView" destination="Gyj-pc-1G7" id="LQS-42-6OQ"/>
+                        <outlet property="panGesture" destination="TTl-Ea-99E" id="jEE-8i-Mjb"/>
                         <outlet property="youLoseLabel" destination="xhw-Oa-OB5" id="gNw-xy-ORb"/>
                     </connections>
                 </viewController>

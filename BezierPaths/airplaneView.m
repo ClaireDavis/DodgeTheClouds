@@ -77,15 +77,8 @@
   
   [bezierPath applyTransform:CGAffineTransformMakeTranslation(-40, -42)];
   
-  //// Bezier 3 Drawing
-//  UIBezierPath* bezier3Path = [UIBezierPath bezierPath];
-//  [bezier3Path moveToPoint: CGPointMake(70.5, 59.5)];
-//  [bezier3Path addLineToPoint: CGPointMake(96.5, 48.5)];
-//  [bezier3Path addLineToPoint: CGPointMake(68.5, 57.5)];
-//  [UIColor.blackColor setStroke];
-//  bezier3Path.lineWidth = 1;
-//  [bezier3Path stroke];
 
+  [bezierPath applyTransform:CGAffineTransformMakeScale(1.3, 1.3)];
   return bezierPath;
 }
 
