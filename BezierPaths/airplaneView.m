@@ -21,7 +21,6 @@
   if(self) {
     [self commonInit];
   }
-  
   return self;
 }
 
@@ -31,7 +30,6 @@
   if(self) {
     [self commonInit];
   }
-  
   return self;
 }
 
@@ -46,8 +44,6 @@
   shapeLayer.strokeColor = [[UIColor blackColor]CGColor];
   
   UIColor *whiteSmoke = [UIColor colorWithRed:0.961 green:0.961 blue:0.961 alpha:1] ;
-  
-  //  shapeLayer.path = CGPathCreateWithEllipseInRect(self.bounds, NULL);
   shapeLayer.fillColor = whiteSmoke.CGColor;
 }
 
@@ -76,8 +72,6 @@
   [bezierPath stroke];
   
   [bezierPath applyTransform:CGAffineTransformMakeTranslation(-40, -42)];
-  
-
   [bezierPath applyTransform:CGAffineTransformMakeScale(1.3, 1.3)];
   return bezierPath;
 }

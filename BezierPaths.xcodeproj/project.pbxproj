@@ -15,7 +15,7 @@
 		E2D5D8CA1BE7A76E00089DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D5D8C81BE7A76E00089DF7 /* LaunchScreen.storyboard */; };
 		E2D5D8D51BE7A76F00089DF7 /* BezierPathsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5D8D41BE7A76F00089DF7 /* BezierPathsTests.m */; };
 		E2D5D8E01BE7A76F00089DF7 /* BezierPathsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D5D8DF1BE7A76F00089DF7 /* BezierPathsUITests.m */; };
-		E2EE2EA11BED4C6D00AF6DF0 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE2EA01BED4C6D00AF6DF0 /* CircleView.m */; };
+		E2EE2EA11BED4C6D00AF6DF0 /* firstCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE2EA01BED4C6D00AF6DF0 /* firstCloudView.m */; };
 		E2EE2EA41BF1285D00AF6DF0 /* airplaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE2EA31BF1285D00AF6DF0 /* airplaneView.m */; };
 		E2EE2EA71BF1350400AF6DF0 /* secondCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE2EA61BF1350400AF6DF0 /* secondCloudView.m */; };
 		EEF5C35197B32E2A39E04C2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F4BC0C1D114D8CFD8A386 /* libPods.a */; };
@@ -58,8 +58,8 @@
 		E2D5D8DB1BE7A76F00089DF7 /* BezierPathsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D5D8DF1BE7A76F00089DF7 /* BezierPathsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathsUITests.m; sourceTree = "<group>"; };
 		E2D5D8E11BE7A76F00089DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2EE2E9F1BED4C6D00AF6DF0 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
-		E2EE2EA01BED4C6D00AF6DF0 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		E2EE2E9F1BED4C6D00AF6DF0 /* firstCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstCloudView.h; sourceTree = "<group>"; };
+		E2EE2EA01BED4C6D00AF6DF0 /* firstCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstCloudView.m; sourceTree = "<group>"; };
 		E2EE2EA21BF1285D00AF6DF0 /* airplaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = airplaneView.h; sourceTree = "<group>"; };
 		E2EE2EA31BF1285D00AF6DF0 /* airplaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = airplaneView.m; sourceTree = "<group>"; };
 		E2EE2EA51BF1350400AF6DF0 /* secondCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondCloudView.h; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 				E2D5D8C81BE7A76E00089DF7 /* LaunchScreen.storyboard */,
 				E2D5D8CB1BE7A76E00089DF7 /* Info.plist */,
 				E2D5D8BA1BE7A76E00089DF7 /* Supporting Files */,
-				E2EE2E9F1BED4C6D00AF6DF0 /* CircleView.h */,
-				E2EE2EA01BED4C6D00AF6DF0 /* CircleView.m */,
+				E2EE2E9F1BED4C6D00AF6DF0 /* firstCloudView.h */,
+				E2EE2EA01BED4C6D00AF6DF0 /* firstCloudView.m */,
 			);
 			path = BezierPaths;
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2EE2EA71BF1350400AF6DF0 /* secondCloudView.m in Sources */,
-				E2EE2EA11BED4C6D00AF6DF0 /* CircleView.m in Sources */,
+				E2EE2EA11BED4C6D00AF6DF0 /* firstCloudView.m in Sources */,
 				E2D5D8C21BE7A76E00089DF7 /* ViewController.m in Sources */,
 				E2D5D8BF1BE7A76E00089DF7 /* AppDelegate.m in Sources */,
 				E2EE2EA41BF1285D00AF6DF0 /* airplaneView.m in Sources */,

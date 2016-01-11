@@ -37,11 +37,11 @@
                                     <outletCollection property="gestureRecognizers" destination="DAk-9m-Vzu" appends="YES" id="IvV-K4-NS0"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8To-Gs-oDa" customClass="CircleView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8To-Gs-oDa" customClass="firstCloudView">
                                 <rect key="frame" x="50" y="50" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7S-oc-7ys" customClass="CircleView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7S-oc-7ys" customClass="firstCloudView">
                                 <rect key="frame" x="281" y="204" width="240" height="128"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -60,7 +60,6 @@
                         <constraints>
                             <constraint firstItem="z7S-oc-7ys" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="184" placeholder="YES" id="0ht-0I-2qX"/>
                             <constraint firstItem="Mtf-85-H4e" firstAttribute="leading" secondItem="Gyj-pc-1G7" secondAttribute="trailing" constant="62" placeholder="YES" id="4Al-3n-woa"/>
-                            <constraint firstItem="EbO-WB-6hf" firstAttribute="leading" secondItem="Gyj-pc-1G7" secondAttribute="leading" id="5cF-8T-Qiw"/>
                             <constraint firstItem="Mtf-85-H4e" firstAttribute="top" secondItem="z7S-oc-7ys" secondAttribute="bottom" constant="92" placeholder="YES" id="6Ip-6I-PtP"/>
                             <constraint firstAttribute="bottom" secondItem="8To-Gs-oDa" secondAttribute="bottom" constant="500" placeholder="YES" id="6as-Yi-zki"/>
                             <constraint firstAttribute="bottom" secondItem="EbO-WB-6hf" secondAttribute="bottom" constant="20" symbolic="YES" id="7Mw-Uh-b4N"/>
@@ -77,6 +76,7 @@
                             <constraint firstItem="z7S-oc-7ys" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="281" placeholder="YES" id="nFE-kq-oim"/>
                             <constraint firstAttribute="trailing" secondItem="Gyj-pc-1G7" secondAttribute="trailing" constant="340" placeholder="YES" id="qIv-Kw-KUw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Mtf-85-H4e" secondAttribute="trailing" constant="18" placeholder="YES" id="sLB-PQ-2db"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="EbO-WB-6hf" secondAttribute="leading" id="ve2-rF-Tbd"/>
                         </constraints>
                     </view>
                     <connections>

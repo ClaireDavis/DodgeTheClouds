@@ -21,7 +21,6 @@
   if(self) {
     [self commonInit];
   }
-  
   return self;
 }
 
@@ -31,7 +30,6 @@
   if(self) {
     [self commonInit];
   }
-  
   return self;
 }
 
@@ -45,11 +43,6 @@
   shapeLayer.path = cloud.CGPath;
   
   UIColor *ivory = [UIColor colorWithRed:1 green:1 blue:0.941 alpha:1];
-  
-  
-  
-  
-  //  shapeLayer.path = CGPathCreateWithEllipseInRect(self.bounds, NULL);
   shapeLayer.fillColor = ivory.CGColor;
 }
 

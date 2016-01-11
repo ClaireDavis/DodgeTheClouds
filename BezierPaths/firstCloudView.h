@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CircleView : UIView
+@interface firstCloudView : UIView
 
 @property (nonatomic, strong)CAShapeLayer *shapeLayer;
 
