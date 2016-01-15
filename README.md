@@ -7,3 +7,5 @@ This project started as a platform to learn about Bezier Paths and animations an
 Custom Bezier Paths were used to create cloud obstacles as well as the airplane that the user controls.
 The clouds animate across the screen using core animation.
 The user dodges the clouds with gesture recognizers.
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/b1_JBpXbtrM/0.jpg)](http://www.youtube.com/watch?v=b1_JBpXbtrM)
