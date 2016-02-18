@@ -157,29 +157,29 @@ UIView *holderView;
 {
   CGFloat planeX = self.holderView.frame.origin.x;
   CGFloat planeY = self.holderView.frame.origin.y;
-  CGPoint point = CGPointMake(planeX+90, planeY);
+  CGPoint point1 = CGPointMake(planeX+90, planeY);
   CGPoint point2 = CGPointMake(planeX+90, planeY);
   CGPoint point3 = CGPointMake(planeX+90, planeY);
   
-  CGRect frame = [[self.cloudView.layer presentationLayer]frame ];
-  CGPoint origin = frame.origin;
+  CGRect cloudView1Frame = [[self.cloudView.layer presentationLayer]frame ];
+  CGPoint cloudView1Origin = cloudView1Frame.origin;
   
-  point.x -= (origin.x - self.view.frame.origin.x);
-  point.y -= (origin.y - self.view.frame.origin.y);
+  point1.x -= (cloudView1Origin.x - self.view.frame.origin.x);
+  point1.y -= (cloudView1Origin.y - self.view.frame.origin.y);
   
-  CGRect cloud2Frame = [[self.cloudView2.layer presentationLayer]frame];
-  CGPoint cloud2Origin = cloud2Frame.origin;
+  CGRect cloudView2Frame = [[self.cloudView2.layer presentationLayer]frame];
+  CGPoint cloudView2Origin = cloudView2Frame.origin;
   
-  point2.x -= (cloud2Origin.x - self.view.frame.origin.x);
-  point2.y -= (cloud2Origin.y - self.view.frame.origin.y);
+  point2.x -= (cloudView2Origin.x - self.view.frame.origin.x);
+  point2.y -= (cloudView2Origin.y - self.view.frame.origin.y);
   
-  CGRect cloud3Frame = [[self.cloudView3.layer presentationLayer]frame];
-  CGPoint cloud3Origin = cloud3Frame.origin;
+  CGRect cloudView3Frame = [[self.cloudView3.layer presentationLayer]frame];
+  CGPoint cloudView3Origin = cloudView3Frame.origin;
   
-  point3.x -= (cloud3Origin.x - self.view.frame.origin.x);
-  point3.y -= (cloud3Origin.y - self.view.frame.origin.y);
+  point3.x -= (cloudView3Origin.x - self.view.frame.origin.x);
+  point3.y -= (cloudView3Origin.y - self.view.frame.origin.y);
   
-  if ([self.cloudView pointInside:point withEvent:nil] || [self.cloudView2 pointInside:point2 withEvent:nil] || [self.cloudView3 pointInside:point3 withEvent:nil] ) {
+  if ([self.cloudView pointInside:point1 withEvent:nil] || [self.cloudView2 pointInside:point2 withEvent:nil] || [self.cloudView3 pointInside:point3 withEvent:nil] ) {
     self.youLoseLabel.hidden  = NO;
     [self.cloudView.layer.presentationLayer removeAllAnimations];
     [self.cloudView2.layer.presentationLayer removeAllAnimations];
